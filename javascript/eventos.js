@@ -25,8 +25,8 @@ function eventoDblClick(){
   alert("clique Duplo");
 }
 
-
 //  ------------ # ----------- # ------------ # -----------
+
 // Evento de Mouse
 
 // onmouseover -> Disparado quando o mouse está sobre.
@@ -42,12 +42,11 @@ function viraAzul(){
   div.style.backgroundColor = "blue"
 }
 
-
-
-
-
-
-
+//
+function adicionaTexto(){
+  let p = document.getElementById("texto");
+  p.append('O mouse moveu');
+}
 
 // onmousemove -› Disparado quando o mouse é movido no elemento.
 // onmousedown -› Disparado quando o clique do botão foi pressionado.

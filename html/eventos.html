@@ -6,6 +6,7 @@
   <title>Eventos</title>
 </head>
 <body>
+  
 
   <button id="botao">Clique aqui</button>
   <br><br>
@@ -13,7 +14,13 @@
   <br><br>
   <button ondblclick="eventoDblClick()">ondblclick 2 click</button>
   <br><br>
-  <div id="div01" onmouseover="viraVermelho()" onmouseout="viraAzul()" style="width: 80%; height: 200px; margin:auto auto; background: blueviolet;"></div>
+  <div id="div01" 
+       onmouseover="viraVermelho()" 
+       onmouseout="viraAzul()" 
+       onmousemove="adicionaTexto()"
+       style="width: 80%; height: 200px; margin:auto auto; background: blueviolet;">
+       <p id="texto"></p>
+  </div>
 
 
 
